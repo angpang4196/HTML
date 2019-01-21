@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML 5</title>
+	<style>
+		header {
+			background-color: blue;
+			color : white;
+			text-align: center;
+		}
+
+		nav {
+			
+			width : 20%;
+			float: left;
+			padding : 0;
+		}
+
+		article {
+
+			width: 70%;
+		}
+
+		section:after{
+			content: "";
+			display: table;
+			clear:both;
+		}
+
+		footer {
+			background-color: blue;
+			color : white;
+			text-align: center;
+		}
+
+
+	</style>
+</head>
+<body>
+	<!--
+		header
+		Cities
+		문자열 크게 
+		바탕색 blue
+		글자색 white
+
+		nav
+		1. London
+		2. Paris
+		3. Seoul
+		4. New York
+		머리글 보이지 않게
+		width : 20%
+
+		본문 
+		런던에 대한 간단한 소개를 표시
+		width : 70%
+
+		nav와 본문은 가로 방향으로 배치
+		
+		footer
+		본인의 email을 표시
+		바탕색 blue
+		글자색 white
+	-->
+
+	<header><h1>Cities</h1></header>
+	
+	<section>
+		<nav>
+			<ul type = none>
+				<li><a href="#">London</a></li>
+				<li><a href="#">Paris</a></li>
+				<li><a href="#">Seoul</a></li>
+				<li><a href="#">New York</a></li>
+			</ul>
+		</nav>
+
+		<article>
+			<h4>London</h4>
+			<p>잉글랜드 남동부 템스강(江) 하구에서부터 약 60km 상류에 있다. 영국의 정치·경제·문화 그리고 교통의 중심지일 뿐만 아니라, 영국연방의 사실상의 중심도시다. 뉴욕·상하이·도쿄와 더불어 세계 최대 도시의 하나다.
+		</article>
+	</section>
+
+	<footer>CopyRight &copy; colplayer@naver.com</footer>
+
+</body>
+</html>
